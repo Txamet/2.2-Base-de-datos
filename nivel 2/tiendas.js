@@ -1,1 +1,0 @@
-db.createCollection('tiendas', {validator: {$jsonSchema: {bsonType: 'object',title: 'tiendas',required: ['direccion','codigo_postal','localidad','provincia'],properties:{direccion:{bsonType: 'string'},codigo_postal:{bsonType: 'int'},localidad:{bsonType: 'string'},provincia:{bsonType: 'string'}}}}});
